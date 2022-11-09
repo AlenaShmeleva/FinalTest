@@ -29,5 +29,5 @@ string [] array = new string[M];
 InputArray(array);
 Console.WriteLine();
 Console.WriteLine($"Введённый массив: [{string.Join(", ", array)}]");
-Console.Write("Исходный массив: ");
+Console.Write("Полученный массив: ");
 NewArray(array);
